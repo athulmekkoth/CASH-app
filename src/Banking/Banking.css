@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bmain{
+
+    background-color:rgb(124,216,76);
+    height: 61rem;
+    ;
+}
+.fpart{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.spart{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:17rem;
+    width:80%;
+}
+.tpart{ 
+   
+    display:flex;
+    justify-content: space-evenly;
+    align-items: top;
+
+        
+}
+.txt{
+    width: 20%;
+}
+.tpart img{
+height: 100%;
+}
+.pos{
+    position: relative;
+    bottom: 12rem;
+    right: 6rem;
+}
+.sos{
+    position: relative;
+    bottom: 5rem;
+}
+.dpart{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+position: relative;
+bottom: 10rem;
+gap: 10rem;
+}
+.dpart img:nth-child(1) {
+    position: relative;
+    bottom: 2rem;/* Styles for the first img child */
+}
+.dpart img:nth-child(4) {
+    position: relative;
+    top: 3rem;/* Styles for the first img child */
+}
+.lpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20rem;
+    position: relative;
+    bottom: 10rem;
+}
+.lpart img:nth-child(2){
+    
+    position: relative;
+    top: 6rem;
+}
+@media (max-width:1024px)
+{
+    .fpart img{
+        width: 50%;
+    }
+    .spart{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        gap:10px;
+        align-items: center;
+        margin-left: 3rem;
+
+        
+    }
+    .spart img{
+        width: 70%;
+    }
+    .tpart{ 
+   
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items: center;
+        gap:1rem;
+            
+    }
+    .tpart img{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .pos{
+        position: relative;
+        bottom: 1rem;
+        width: 40%;
+    }
+    .sos{
+        position: relative;
+        bottom: 10rem;
+        left: 2rem;
+        width: 15%;
+    }
+.txt{
+    width: 300px;
+  
+    margin: 20px 0px;
+}
+.dpart{
+   display: none;
+
+
+}
+.lpart{
+    display: none;
+   }
+   .bmain{
+    height: 50rem;
+   }
+
+}

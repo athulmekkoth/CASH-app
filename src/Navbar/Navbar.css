@@ -1,0 +1,103 @@
+body{
+    z-index: 1000;
+}
+.eye {
+  margin: 0px;
+  width: 60px;
+  background-color: white;
+  height: 60px;
+  border: solid 1px #000;
+  border-radius:  75% 15%;
+  position: relative;
+  transform: rotate(45deg);
+}
+.eye:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 47px;
+  height: 55px;
+  border: solid 1px #000;
+  border-radius: 50%;
+  left: 6px;
+  top: 18x;
+    background-color: rgb(124,216,76);
+   transform: rotate(45deg);
+}
+ .inner-eye {
+            width: 25px;
+            height: 22px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+        }
+.iris{
+  background-color:white;
+  width: 10px;
+            height: 10px;
+  border-radius:20px;
+  
+             
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: top;
+    
+    margin: 20px 20px;
+}
+.plist{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 500;
+    
+}
+.x{
+    display: none;
+}
+@media(max-width:768px)
+{
+    .x{
+        display:block;
+        width:30px;
+        height: 30px;
+        position: absolute;
+        top:20px;
+        right: 70px;
+     
+
+    }
+    .eye{
+        display: none;
+    }
+    .plist{
+        position:absolute;
+        top:90px;
+        left:-200px;
+        width:100%;
+        color: white;
+        
+        list-style: none;
+        display: flex;
+        
+        flex-direction: column;
+        
+        gap: 10px;
+        font-weight: 500;
+        margin-left: 200px;
+        background-color: black;
+       
+        
+    }
+    
+  
+    
+}

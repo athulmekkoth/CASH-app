@@ -1,0 +1,182 @@
+.cp{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.mcrd{
+    background-color: black;
+    height: 50rem;
+}
+.cp img:nth-child(1){
+   position: relative;
+   top:5rem
+}
+.q{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    gap:20px;
+    position: relative;
+    bottom: 44rem;
+    right: -27rem;
+}
+.ez{
+    width: 50%;
+
+}
+.ez p{
+    width: 66%;
+}
+.s1{
+    position: relative;
+   
+    display: flex;
+    flex-direction: row;
+}
+.ez h1{
+    color: green;
+}
+.ez{
+    color: white;
+}
+.imgcol img:nth-child(1)
+{
+    position: relative;
+    top:-20rem;
+    right: -89rem;
+    top: -25rem;
+    
+} 
+.imgcol img:nth-child(2)
+{
+    position: relative;
+   ;
+    right: -90rem;
+    top: -15rem;
+    
+} 
+.imgcol img:nth-child(3)
+{
+    position: relative;
+   ;
+    right: -84rem;
+    top: -34rem;
+    
+}
+.imgcol img:nth-child(4)
+{
+    position: relative;
+   ;
+    right: -88rem;
+    top: -44rem;
+    
+} 
+.imgcol img:nth-child(5)
+{
+    position: relative;
+   ;
+    right: -91rem;
+    top: -24rem;
+    
+} 
+.ez h1{
+    font-size: 27px;
+}
+.ez p{
+    width: 80%;
+    font-size: 17px;
+}
+@media(max-width:1024px)
+{
+ .simg{
+    width: 50%;
+   
+ }
+ .fimg{
+    width: 30%;
+    position: relative;
+    bottom: -6rem;
+   
+ }
+ 
+
+ .q{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   left: 12px;
+margin-left: 30px;
+   width: 90%;
+  
+   position: relative;
+   left: 8px;
+   bottom: 10rem;
+
+}
+.phone img{
+    width: 30%;
+    ;
+}
+.ez{
+    width: 70%;
+
+}
+.ez h1{
+    font-size: 17px;
+}
+.ez p{
+    width: 80%;
+    font-size: 7px;
+}
+
+.imgcol img:nth-child(1)
+{
+    position: relative;
+    width: 4%;
+    left:18rem;
+    top:-6rem
+   
+  
+} 
+.imgcol img:nth-child(2)
+{
+    position: relative;
+    width: 4%;
+    left:18.5rem;
+    top:-8rem
+    
+} 
+.imgcol img:nth-child(3)
+{
+    position: relative;
+    width: 4%;
+    left:18.4rem;
+    top:-10rem
+   
+    
+}
+.imgcol img:nth-child(4)
+{
+    position: relative;
+    width: 4%;
+    left:16.5rem;
+    top:-4rem
+   
+    
+} 
+.imgcol img:nth-child(5)
+{
+    position: relative;
+    width: 4%;
+    left:19rem;
+    top:-6rem
+   
+    
+} 
+}
